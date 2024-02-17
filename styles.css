@@ -1,0 +1,141 @@
+:root {
+    --primary-brand-color: #4D5AE5;
+    --pressed-state-color: #404BBF;
+    --dark-color: #2E2F42;
+    --success-color: #31D0AA;
+    --text-color: #434455;
+    --subtle-text-color: #8E8F99;
+    --accent-color: #E7E9FC;
+    --light-color: #F4F4FD;
+    --modal-overlay-color: #2E2F42;
+    --hero-bg-color: #2E2F42;
+    --white-bg-color: #FFFFFF;
+    --modal-bg-color: #FCFCFC;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text-color);
+    background-color: var(--white-bg-color);
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color)
+  }
+
+ul, ol {
+    list-style-type: none;
+}
+
+address {
+    font-style: normal;
+}
+
+button {
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--dark-color)
+}
+
+.logo-color {
+    color: var(--primary-brand-color);
+}
+
+.nav-item {
+    font-weight: 500;
+    color: var(--dark-color);
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    color: var(--pressed-state-color);
+}
+
+.contacts-info:hover,
+.contacts-info:focus {
+    color: var(--pressed-state-color);
+}
+
+.order-service {
+    background-color: var(--dark-color);
+}
+
+.order-service-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    color: var(--white-bg-color);
+}
+
+.order-service-btn {
+    color: var(--white-bg-color);
+    font-size: 24px;
+    background-color: var(--primary-brand-color);
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+    background-color: var(--pressed-state-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.element-title {
+    font-weight: 500;
+    color: var(--dark-color);
+    line-height: 1.2;
+}
+
+.section-title {
+    font-size: 36px;
+    color: var(--dark-color);
+    line-height: 1.1;
+}
+
+.team {
+    background-color: var(--light-color);
+}
+
+.footer {
+    background-color: var(--dark-color);
+}
+
+.logo-white {
+    color: var(--light-color);
+}
+
+.footer-text {
+    color: var(--light-color);
+}
+
+.works-btn {
+    color: var(--primary-brand-color);
+    background-color: var(--light-color);
+}
+
+.works-btn:hover,
+.works-btn:focus {
+    color: var(--white-bg-color);
+    background-color: var(--pressed-state-color);
+}
