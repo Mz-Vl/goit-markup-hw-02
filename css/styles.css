@@ -16,7 +16,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 16px;
     color: var(--text-color);
     background-color: var(--white-bg-color);
@@ -37,7 +36,6 @@ address {
 }
 
 button {
-    font-weight: 400;
     border: none;
     cursor: pointer;
 }
@@ -46,7 +44,9 @@ button {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    color: var(--dark-color)
+    color: var(--dark-color);
+    line-height: 21px;
+    letter-spacing: 0.03em;
 }
 
 .logo-color {
@@ -54,6 +54,8 @@ button {
 }
 
 .nav-item {
+    line-height: 24px;
+    letter-spacing: 0.02em;
     font-weight: 500;
     color: var(--dark-color);
 }
@@ -61,6 +63,11 @@ button {
 .nav-item:hover,
 .nav-item:focus {
     color: var(--pressed-state-color);
+}
+
+.contacts-info {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .contacts-info:hover,
@@ -76,12 +83,14 @@ button {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     color: var(--white-bg-color);
 }
 
 .order-service-btn {
     color: var(--white-bg-color);
-    font-size: 24px;
+    font-size: 16px;
+    letter-spacing: 0.04em;
     background-color: var(--primary-brand-color);
 }
 
@@ -105,12 +114,31 @@ button {
     font-weight: 500;
     color: var(--dark-color);
     line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.works-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.features-text {
+    color: var(--text-color);
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .section-title {
     font-size: 36px;
     color: var(--dark-color);
     line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 
 .team {
@@ -127,11 +155,16 @@ button {
 
 .footer-text {
     color: var(--light-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .works-btn {
     color: var(--primary-brand-color);
     background-color: var(--light-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .works-btn:hover,
