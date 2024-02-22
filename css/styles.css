@@ -111,6 +111,7 @@ button {
 }
 
 .element-title {
+    font-size: 20px;
     font-weight: 500;
     color: var(--dark-color);
     line-height: 1.2;
